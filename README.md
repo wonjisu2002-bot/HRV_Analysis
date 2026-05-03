@@ -1,10 +1,12 @@
 # HRV_Analysis
 _Apple Watch 데이터를 활용한 개인 생리 데이터 분석 프로젝트_
 
+
 **## Summary**
 
 수면, 심박수, 운동 데이터를 기반으로 
 HRV(심박변이도)에 영향을 미치는 생리적 요인을 분석하였다. 
+
 
 **## Data Explanation**
 
@@ -15,11 +17,13 @@ _(Apple watch 기반 측정 데이터)_
 - 수면 시간
 - 수면 질
 
+
 **## Data Preprocessing**
 
 - 날짜 기준 데이터 정렬
 - 하루 평균 HRV 계산
 - 다음날 HRV 생성 (shift 적용)
+
 
 **## Results**
 
@@ -58,6 +62,7 @@ _(Apple watch 기반 측정 데이터)_
 강한 음의 상관관계가 나타났으며 (r ≈ -0.74)
 
 심박수가 증가할수록 HRV가 감소하는 경향을 보였다. 
+
 
 
 
